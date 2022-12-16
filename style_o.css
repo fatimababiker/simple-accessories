@@ -1,0 +1,51 @@
+.container{
+    height: 200px;
+} 
+ header.sticky .logo{
+    color:#111;
+}
+.logo {
+    float: left;
+    color:#111;
+}
+.logo-img{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.logo label{
+    font-size: 25px;
+}
+/*.logo h2{
+    color: #fff;
+    width: 5px;
+
+}*/
+nav{
+    float:right;
+    margin-right: 10px;
+}
+nav ul{
+    width: auto;
+    overflow: auto;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 5px;
+}
+nav ul li:hover{
+    border: 1px solid  darkorange;
+
+}
+nav ul .active{
+    border: 1px solid  darkorange;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}

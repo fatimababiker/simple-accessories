@@ -1,0 +1,9 @@
+<?php
+if(isset($_POST['con'])){
+    $host='localhost';
+    $user='root';
+    $pass='';
+    $db='mystore';
+    $con=mysqli_connect($host,$user,$pass,$db);
+}
+?>
